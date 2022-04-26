@@ -1,0 +1,251 @@
+*{
+    margin:0;
+    padding:0;
+}
+ /* header*//* header*//* header*//* header*//* header*//* header*//* header*//* header*//* header*//* header*/
+.header{
+    background-color: hsl(194, 38%, 30%);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    
+}
+.barraNavegacion__lista {
+    background-color: #305D6B;
+    text-decoration: none;
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+   
+}
+.header__imagen {
+    width: 120px;
+    border-radius: 50%;
+    display: flex;
+    flex-direction: row;
+    
+    
+    
+}
+a{
+    text-decoration: none;
+    color: white;
+    border: solid 1px white; 
+    margin: 10px ;
+    padding: 15px;
+    border: solid 1px   whitesmoke;
+
+   
+}
+
+
+
+
+
+
+/* Main *//* Main *//* Main *//* Main *//* Main *//* Main *//* Main *//* Main *//* Main *//* Main *//* Main */
+
+.main {
+    margin-top: 40px auto;
+    background-color: #305D6B;
+    background-image: url(./images/oficina-estudiopm.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: center;
+}
+
+.titulo__principal{ 
+    text-align: center;
+    color:#305D6B;
+    margin-top: 140px;
+    top: 240px;
+    bottom:0%;
+    padding:20px;
+    
+}
+
+.parrafoPresentacion {
+    color:whitesmoke;
+    text-align: center;
+    top: 240px;
+
+
+}
+
+
+/*FOOTER*//*FOOTER*//*FOOTER*//*FOOTER*//*FOOTER*//*FOOTER*//*FOOTER*//*FOOTER*//*FOOTER*//*FOOTER*//*FOOTER*//*FOOTER*/
+
+.footer{
+    background-color: #305D6B;
+    display: flex;
+    justify-content: center;
+}
+
+.tituloFooter{
+    text-align: center;
+    color: black;
+    top: 240px;
+    bottom:0%;
+    padding:20px;
+    display: flex;
+    justify-content: center;
+}
+
+
+.redes {
+    display:inline-block
+}
+
+/*Estudio*//*Estudio*//*Estudio*//*Estudio*//*Estudio*//*Estudio*//*Estudio*//*Estudio*//*Estudio*//*Estudio*//*Estudio*/
+.estudioInfo{
+    background-color: black;
+    background-image: url(./images/oficina-imagen.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: center;
+}
+
+.estudio__info {
+    text-align: center;
+    color: whitesmoke;
+    margin-top: 140px;
+    top: 240px;
+    bottom:0%;
+    padding:20px;
+}
+
+/*SERVICIOS*//*SERVICIOS*//*SERVICIOS*//*SERVICIOS*//*SERVICIOS*//*SERVICIOS*//*SERVICIOS*//*SERVICIOS*//*SERVICIOS*/
+.servicios {
+    background-color: black;
+}
+.nuestrosServicios{
+    text-align: center;
+    color: whitesmoke;
+    margin-top: 140px;
+    top: 240px;
+    bottom:0%;
+    padding:20px;
+
+}
+.responsables__inscriptos {
+    text-align: center;
+    color: whitesmoke;
+    margin-top: 140px;
+    top: 240px;
+    bottom:0%;
+    padding:20px;
+
+}
+
+.pymes__emprendedores {
+    text-align: center;
+    color: whitesmoke;
+    margin-top: 140px;
+    top: 240px;
+    bottom:0%;
+    padding:20px;
+
+}
+
+.auditoria__balances {
+    text-align: center;
+    color: whitesmoke;
+    margin-top: 140px;
+    top: 240px;
+    bottom:0%;
+    padding:20px;
+}
+.asesoramiento {
+    text-align: center;
+    color: whitesmoke;
+    margin-top: 140px;
+    top: 240px;
+    bottom:0%;
+    padding:20px;
+}
+
+/*QUIENESSOMOS*//*QUIENESSOMOS*//*QUIENESSOMOS*//*QUIENESSOMOS*//*QUIENESSOMOS*//*QUIENESSOMOS*//*QUIENESSOMOS*/
+.nosotros {
+    background-color: whitesmoke;
+ 
+}
+.quienes_somos {
+    text-align: center;
+    color: black;
+    margin-top: 140px;
+    top: 240px;
+    bottom:0%;
+    padding:20px;
+}
+.imagen_erika {
+    height: 300px;
+    width: 300px;
+    border-radius: 50px;
+    margin-right: 140px;
+  }
+
+.nosotros_presentacion {
+    margin: 40px auto;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows:300px 300px;
+    background-color: bisque;
+    justify-items: right;
+    column-gap: 200px;
+
+
+}
+.nombreErika {
+    color: blue;
+    background-color:olive;
+    justify-items: right;
+
+
+}
+
+.nombreMatias {
+    justify-items: left;
+    color:blueviolet;
+    background-color: cadetblue;
+    
+}
+
+.imagen_matias {
+    height: 300px;
+    width: 300px;
+    border-radius: 50px;
+    margin-right: 140px;
+}
+/*
+.matiasPellegrini {
+    text-align: left;
+    color: black;
+    
+}*/
+
+/*CONTACTO*//*CONTACTO*//*CONTACTO*//*CONTACTO*//*CONTACTO*//*CONTACTO*//*CONTACTO*//*CONTACTO*//*CONTACTO*/
+.contacto {
+    background-color: black;
+}
+
+.form_contacto {
+    text-align: center;
+    color: whitesmoke;
+    margin-top: 140px;
+    top: 240px;
+    bottom:0%;
+    padding:20px;
+
+
+} 
+
+@media only screen and (min-widht: 768px) {
+    .main{
+        background-image: none;
+        background-color: whitesmoke;
+    }
+}
+
