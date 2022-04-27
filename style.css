@@ -82,6 +82,7 @@ a{
     background-color: #305D6B;
     display: flex;
     justify-content: center;
+
 }
 
 .tituloFooter{
@@ -93,10 +94,9 @@ a{
     display: flex;
     justify-content: center;
 }
-
-
 .redes {
-    display:inline-block
+    display:inline-block;
+    transform: scale(1);
 }
 
 /*Estudio*//*Estudio*//*Estudio*//*Estudio*//*Estudio*//*Estudio*//*Estudio*//*Estudio*//*Estudio*//*Estudio*//*Estudio*/
@@ -120,6 +120,7 @@ a{
 /*SERVICIOS*//*SERVICIOS*//*SERVICIOS*//*SERVICIOS*//*SERVICIOS*//*SERVICIOS*//*SERVICIOS*//*SERVICIOS*//*SERVICIOS*/
 .servicios {
     background-color: black;
+
 }
 .nuestrosServicios{
     text-align: center;
@@ -185,7 +186,8 @@ a{
     width: 300px;
     border-radius: 50px;
     margin-right: 140px;
-  }
+    background-image: linear-gradient( blue , red);
+}
 
 .nosotros_presentacion {
     margin: 40px auto;
