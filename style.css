@@ -10,6 +10,7 @@
     justify-content: space-between;
     align-items: center;
     flex-wrap: wrap;
+    background-image: linear-gradient(blue, red);
     
 }
 .barraNavegacion__lista {
@@ -185,6 +186,7 @@ a{
     width: 300px;
     border-radius: 50px;
     margin-right: 140px;
+    transition: all 1s;
   }
 
 .nosotros_presentacion {
@@ -201,7 +203,8 @@ a{
 .nombreErika {
     color: blue;
     background-color:olive;
-    justify-items: right;
+    justify-items: right; 
+    transition: all 2s;
 
 
 }
@@ -210,6 +213,7 @@ a{
     justify-items: left;
     color:blueviolet;
     background-color: cadetblue;
+    transition: all 2s;
     
 }
 
@@ -218,6 +222,7 @@ a{
     width: 300px;
     border-radius: 50px;
     margin-right: 140px;
+    transition: all 1s;
 }
 /*
 .matiasPellegrini {
