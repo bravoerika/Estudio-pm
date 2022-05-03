@@ -37,7 +37,7 @@
     transition: transform 1s, background-color 2s;
 }
 .barraNavegacion__lista li:hover {
-   transform:scale(1.2);
+   transform:scale(1.4);
    background-color: rgba(0, 0, 0, 0.253);
 
 
