@@ -10,10 +10,12 @@
     justify-content: space-between;
     align-items: center;
     flex-wrap: wrap;
-    
+    background-image: linear-gradient(#305D6B, #94b5be);
+    height: 110px;
+    transform: translate(0%,-17%);
 }
 .barraNavegacion__lista {
-    background-color: #305D6B;
+    background-color: none;
     text-decoration: none;
     list-style: none;
     display: flex;
@@ -22,70 +24,89 @@
    
 }
 .header__imagen {
-    width: 120px;
+    width: 100px;
     border-radius: 50%;
     display: flex;
     flex-direction: row;
+   
     
     
     
 }
+.barraNavegacion__lista li{
+    transition: transform 1s, background-color 2s;
+}
+.barraNavegacion__lista li:hover {
+   transform:scale(1.4);
+   background-color: rgba(0, 0, 0, 0.253);
+
+
+}
+
 a{
     text-decoration: none;
     color: white;
-    border: solid 1px white; 
     margin: 10px ;
     padding: 15px;
-    border: solid 1px   whitesmoke;
 
    
 }
 
 
-
-
-
-
 /* Main *//* Main *//* Main *//* Main *//* Main *//* Main *//* Main *//* Main *//* Main *//* Main *//* Main */
 
 .main {
-    margin-top: 40px auto;
+    width: 100%;
+    height: 558px;
     background-color: #305D6B;
-    background-image: url(./images/oficina-estudiopm.jpg);
-    background-repeat: no-repeat;
-    background-size: 100%;
-    background-position: center;
+    transform: translate(0%, -29%);
+
 }
 
+.fondo__oficina {
+    display: flex;
+    flex-wrap: nowrap;
+    width: 100%;
+    height: 550px;
+}
 .titulo__principal{ 
     text-align: center;
-    color:#305D6B;
+    color:#f2f7f8;
     margin-top: 140px;
     top: 240px;
     bottom:0%;
     padding:20px;
-    
+    font-size: 40px;
+    color: rgb(2, 2, 2);
 }
 
 .parrafoPresentacion {
     color:whitesmoke;
     text-align: center;
     top: 240px;
-
-
+    transform: translate(0%, -25%);
 }
-
 
 /*FOOTER*//*FOOTER*//*FOOTER*//*FOOTER*//*FOOTER*//*FOOTER*//*FOOTER*//*FOOTER*//*FOOTER*//*FOOTER*//*FOOTER*//*FOOTER*/
 
 .footer{
+    position:absolute;
+    top:800px;
     background-color: #305D6B;
     display: flex;
+<<<<<<< HEAD
     justify-content: center;
 
+    
+=======
+    justify-content:center;
+    width: 100%;
+    height: 150px;
+    transform: translate(0%, -40%);
+>>>>>>> desafio
 }
 
-.tituloFooter{
+/*.tituloFooter{
     text-align: center;
     color: black;
     top: 240px;
@@ -94,9 +115,17 @@ a{
     display: flex;
     justify-content: center;
 }
+<<<<<<< HEAD
 .redes {
     display:inline-block;
     transform: scale(1);
+=======
+*/
+
+.redes {
+    display:inline-block;
+    transition: all 2s;
+>>>>>>> desafio
 }
 
 /*Estudio*//*Estudio*//*Estudio*//*Estudio*//*Estudio*//*Estudio*//*Estudio*//*Estudio*//*Estudio*//*Estudio*//*Estudio*/
@@ -186,8 +215,13 @@ a{
     width: 300px;
     border-radius: 50px;
     margin-right: 140px;
+<<<<<<< HEAD
     background-image: linear-gradient( blue , red);
 }
+=======
+    transition: all 1s;
+  }
+>>>>>>> desafio
 
 .nosotros_presentacion {
     margin: 40px auto;
@@ -203,7 +237,8 @@ a{
 .nombreErika {
     color: blue;
     background-color:olive;
-    justify-items: right;
+    justify-items: right; 
+    transition: all 2s;
 
 
 }
@@ -212,6 +247,7 @@ a{
     justify-items: left;
     color:blueviolet;
     background-color: cadetblue;
+    transition: all 2s;
     
 }
 
@@ -220,6 +256,7 @@ a{
     width: 300px;
     border-radius: 50px;
     margin-right: 140px;
+    transition: all 1s;
 }
 /*
 .matiasPellegrini {
