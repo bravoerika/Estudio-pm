@@ -1,0 +1,36 @@
+ header {
+    background-color: #336777;
+    background-color: hsl(194, 39%, 30%);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    background-image: linear-gradient(#305D6B, #94b5be);
+    height: 110px;
+    transform: translate(0%,-17%);
+       
+        &_imagen {
+            width: 100px;
+            border-radius: 50%;
+            display: flex;
+            flex-direction: row;
+        }
+    
+        .barraNavegacion {
+        background-color: none;
+        text-decoration: none;
+        list-style: none;
+        display: flex;
+        flex-direction: row;
+        justify-content: end;
+        }
+        &__lista li{
+            transition: transform 1s, background-color 2s;
+        }
+            &_:hover {
+                transform:scale(1.4);
+                background-color: rgba(0, 0, 0, 0.253);
+            }
+
+ }

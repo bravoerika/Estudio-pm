@@ -1,0 +1,14 @@
+{
+    "version": 3,
+    "mappings": "",
+    "sources": [
+        "main.scss",
+        "_variables.scss",
+        "components/_contacto.scss",
+        "components/_estudio.scss",
+        "components/_quienessomos.scss",
+        "components/_servicio.scss"
+    ],
+    "names": [],
+    "file": "main.css"
+}
