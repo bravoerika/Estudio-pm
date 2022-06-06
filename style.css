@@ -84,19 +84,17 @@ a{
     color:whitesmoke;
     text-align: center;
     top: 240px;
-    transform: translate(0%, -25%);
+    
 }
 
 /*FOOTER*//*FOOTER*//*FOOTER*//*FOOTER*//*FOOTER*//*FOOTER*//*FOOTER*//*FOOTER*//*FOOTER*//*FOOTER*//*FOOTER*//*FOOTER*/
 
 .footer{
-    position:absolute;
-    top:800px;
+    width: 100%;
     background-color: #305D6B;
     display: flex;
     justify-content: center;
 
-    
 }
 
 
@@ -106,44 +104,58 @@ a{
 }
 
 /*Estudio*//*Estudio*//*Estudio*//*Estudio*//*Estudio*//*Estudio*//*Estudio*//*Estudio*//*Estudio*//*Estudio*//*Estudio*/
-.estudioInfo{
-    background-color: black;
-    background-image: url(./images/oficina-imagen.jpg);
-    background-repeat: no-repeat;
-    background-size: 100%;
-    background-position: center;
+.estudio {
+    text-align: center;
+    color:whitesmoke;
+    bottom: 50px;
+    font-size: 35px;
+    background-image: url(/images/oficina.jpg);
 }
 
-.estudio__info {
-    text-align: center;
-    color: whitesmoke;
-    margin-top: 140px;
-    top: 240px;
-    bottom:0%;
-    padding:20px;
+.estudioInfo {
+    text-align:center;
+    color: black;
+    padding: 100px;
+    background-color: whitesmoke;
+    font-size: 16px;
 }
+
 
 /*SERVICIOS*//*SERVICIOS*//*SERVICIOS*//*SERVICIOS*//*SERVICIOS*//*SERVICIOS*//*SERVICIOS*//*SERVICIOS*//*SERVICIOS*/
 .servicios {
-    background-color: black;
+    background-color:black;
+    padding-top: 1px;
+    padding-bottom: 10px;
+    background-image: linear-gradient(#2b2c2c, #475252);
 
 }
+.adminContable {
+    display: flex;
+    justify-content: center;
+    height: 200px;
+    width: 200px;
+    margin-left: 550px;
+    transition: all 2s;
+    
+}
+.admin__contable {
+    
+    text-align: center;
+    color: whitesmoke;
+    margin-block-start: 700px;
+    top: 10px;
+    bottom:0%;
+    padding:20px;
+    font-size: 12px;
+}
+
 .nuestrosServicios{
     text-align: center;
     color: whitesmoke;
     margin-top: 140px;
-    top: 240px;
+    top: 10px;
     bottom:0%;
-    padding:20px;
-
-}
-.responsables__inscriptos {
-    text-align: center;
-    color: whitesmoke;
-    margin-top: 140px;
-    top: 240px;
-    bottom:0%;
-    padding:20px;
+    padding-top:20px;
 
 }
 
@@ -207,15 +219,6 @@ a{
 
 
 }
-.nombreErika {
-    color: blue;
-    background-color:olive;
-    justify-items: right; 
-    transition: all 2s;
-
-
-}
-
 .nombreMatias {
     justify-items: left;
     color:blueviolet;
