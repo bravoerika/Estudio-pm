@@ -87,15 +87,6 @@ a{
     
 }
 
-/*FOOTER*//*FOOTER*//*FOOTER*//*FOOTER*//*FOOTER*//*FOOTER*//*FOOTER*//*FOOTER*//*FOOTER*//*FOOTER*//*FOOTER*//*FOOTER*/
-
-.footer{
-    width: 100%;
-    background-color: #305D6B;
-    display: flex;
-    justify-content: center;
-
-}
 
 
 .redes {
@@ -123,139 +114,183 @@ a{
 
 /*SERVICIOS*//*SERVICIOS*//*SERVICIOS*//*SERVICIOS*//*SERVICIOS*//*SERVICIOS*//*SERVICIOS*//*SERVICIOS*//*SERVICIOS*/
 .servicios {
-    background-color:black;
+    background-color:#f2f7f8;
     padding-top: 1px;
-    padding-bottom: 10px;
-    background-image: linear-gradient(#2b2c2c, #475252);
-
+    padding-bottom: 1px;
 }
-.adminContable {
-    display: flex;
-    justify-content: center;
-    height: 200px;
-    width: 200px;
-    margin-left: 550px;
-    transition: all 2s;
-    
+.banner {
+    top:400px;
+    height: 300px;
+    width: 100%;
 }
-.admin__contable {
-    
+.nuestrosServicios {
+    background-color: black;
     text-align: center;
     color: whitesmoke;
-    margin-block-start: 700px;
-    top: 10px;
-    bottom:0%;
-    padding:20px;
-    font-size: 12px;
-}
-
-.nuestrosServicios{
-    text-align: center;
-    color: whitesmoke;
-    margin-top: 140px;
+    margin-top: 14px;
     top: 10px;
     bottom:0%;
     padding-top:20px;
 
 }
-
-.pymes__emprendedores {
+.admin__contable {
     text-align: center;
-    color: whitesmoke;
-    margin-top: 140px;
-    top: 240px;
+    color: black;
+    margin-block-start: 1px;
+    top: 10px;
     bottom:0%;
     padding:20px;
+    font-size: 25px;
+    font-style: italic;
+}
+
+.adminContable {
+    display: flex;
+    justify-content: center;
+    height: 200px;
+    width: 200px;
+    margin-left: 570px;
+    transition: all 2s;
+    
+}
+.textoUno{
+    text-align: center;
+}
+
+
+.adminImpositiva {
+    display: flex;
+    justify-content: center;
+    height: 200px;
+    width: 200px;
+    margin-left: 570px;
+    transition: all 2s;
 
 }
 
-.auditoria__balances {
+.admin__impositiva {
     text-align: center;
-    color: whitesmoke;
-    margin-top: 140px;
+    color: black;
+    margin-top: 10px;
     top: 240px;
     bottom:0%;
     padding:20px;
+    font-style: italic;
+    font-size: 25px;
+
+}
+.textoDos {
+    text-align: center;
+}
+.adminLaboral{
+    display: flex;
+    justify-content: center;
+    height: 200px;
+    width: 200px;
+    margin-left: 570px;
+    transition: all 2s;
+}
+
+.admin__laboral {
+    text-align: center;
+    color: black;
+    margin-top: 10px;
+    top: 100px;
+    bottom:0%;
+    padding:20px;
+    font-style: italic;
+    font-size: 25px;
+}
+.textoTres {
+    text-align: center;
+    padding-bottom: 50px;
 }
 .asesoramiento {
     text-align: center;
-    color: whitesmoke;
-    margin-top: 140px;
-    top: 240px;
+    color: black;
+    margin-top: 10px;
+    top: 100px;
     bottom:0%;
     padding:20px;
+    font-style: italic;
+    font-size: 25px;
 }
 
+.adminNegocio{
+    display: flex;
+    justify-content: center;
+    height: 200px;
+    width: 200px;
+    margin-left: 570px;
+    transition: all 2s;
+
+}
+.textoCuatro{
+    text-align: center;
+
+}
 /*QUIENESSOMOS*//*QUIENESSOMOS*//*QUIENESSOMOS*//*QUIENESSOMOS*//*QUIENESSOMOS*//*QUIENESSOMOS*//*QUIENESSOMOS*/
 .nosotros {
-    background-color: whitesmoke;
+    background-color: white;
+    position: relative;
+    margin-bottom: 0px;
+    padding-top: 0%;
+    bottom: 0%;
  
 }
 .quienes_somos {
     text-align: center;
-    color: black;
-    margin-top: 140px;
+    color:black;
+    text-decoration:underline;
+    margin-top: 10px;
     top: 240px;
     bottom:0%;
     padding:20px;
+    size: 20px;
 }
-.imagen_erika {
-    height: 300px;
-    width: 300px;
-    border-radius: 50px;
-    margin-right: 140px;
-    background-image: linear-gradient( blue , red);
-    transition: all 1s;
-  }
 
 .nosotros_presentacion {
-    margin: 40px auto;
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    grid-template-rows:300px 300px;
-    background-color: bisque;
-    justify-items: right;
-    column-gap: 200px;
+    color: black;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 100px;
 
 
-}
-.nombreMatias {
-    justify-items: left;
-    color:blueviolet;
-    background-color: cadetblue;
-    transition: all 2s;
-    
 }
 
 .imagen_matias {
-    height: 300px;
-    width: 300px;
-    border-radius: 50px;
+    height: 200px;
+    width: 200px;
     margin-right: 140px;
     transition: all 1s;
+    padding-left: 560px;
 }
-/*
-.matiasPellegrini {
-    text-align: left;
-    color: black;
-    
-}*/
 
 /*CONTACTO*//*CONTACTO*//*CONTACTO*//*CONTACTO*//*CONTACTO*//*CONTACTO*//*CONTACTO*//*CONTACTO*//*CONTACTO*/
 .contacto {
-    background-color: black;
+    background-color: white;
+}
+.bannerForm {
+    height: 200px;
+    width: 100%;
 }
 
 .form_contacto {
     text-align: center;
-    color: whitesmoke;
-    margin-top: 140px;
+    color: black;
     top: 240px;
     bottom:0%;
     padding:20px;
 
-
 } 
+.formulario { 
+    display:flex ;
+    flex-direction: column;
+    justify-items:  center;
+    margin-bottom: 200px;
+    padding-left: 560px;
+    
+}
 
 @media only screen and (min-widht: 768px) {
     .main{
@@ -264,3 +299,12 @@ a{
     }
 }
 
+/*FOOTER*//*FOOTER*//*FOOTER*//*FOOTER*//*FOOTER*//*FOOTER*//*FOOTER*//*FOOTER*//*FOOTER*//*FOOTER*//*FOOTER*//*FOOTER*/
+
+.footer{
+    width: 100%;
+    background-color: #305D6B;
+    display: flex;
+    justify-content: center;
+
+}
