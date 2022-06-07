@@ -292,12 +292,7 @@ a{
     
 }
 
-@media only screen and (min-widht: 768px) {
-    .main{
-        background-image: none;
-        background-color: whitesmoke;
-    }
-}
+
 
 /*FOOTER*//*FOOTER*//*FOOTER*//*FOOTER*//*FOOTER*//*FOOTER*//*FOOTER*//*FOOTER*//*FOOTER*//*FOOTER*//*FOOTER*//*FOOTER*/
 
@@ -308,3 +303,22 @@ a{
     justify-content: center;
 
 }
+
+@media (min-width: 576px) { 
+    .main {
+            background-image: none;
+            background-color: whitesmoke;
+            text-align: left;
+        }
+
+    }
+
+/*
+@media (min-width: 768px) { 
+
+}
+
+@media (min-width: 992px) { 
+
+}
+*/
