@@ -71,7 +71,7 @@ a{
 }
 .titulo__principal{ 
     text-align: center;
-    color:#f2f7f8;
+    color: black;
     margin-top: 140px;
     top: 240px;
     bottom:0%;
@@ -81,7 +81,7 @@ a{
 }
 
 .parrafoPresentacion {
-    color:whitesmoke;
+    color:black;
     text-align: center;
     top: 240px;
     
